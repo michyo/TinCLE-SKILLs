@@ -1,0 +1,29 @@
+name: Deploy Raw MD to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # mainブランチにプッシュされたら自動で動くよ！
+
+# 権限の設定（Pagesへの書き込みを許可する）
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # オプション：もし特定のフォルダ（例えば docs/ フォルダ）のMDだけを公開したいなら、
+      # ここでファイルを移動したりする処理を書くこともできるよ！
+      # 今回はリポジトリのルートにあるMDを全部そのまま公開する想定！
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./ # リポジトリのルートディレクトリをそのまま公開！
+          # （もし特定のフォルダだけ公開したいなら publish_dir: ./docs とかに変更してね）
