@@ -1,8 +1,304 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<title>テストページ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinCLE Talent Chips (SKILL.md) Archive</title>
+    <style>
+        :root {
+            --bg-color: #121214;
+            --text-color: #e0e0e0;
+            --accent-color: #ff007f;
+            --card-bg: #1e1e24;
+            --hover-color: #ff4da6;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: var(--accent-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .version-section {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            border-left: 5px solid var(--accent-color);
+        }
+        .version-title {
+            font-size: 1.8rem;
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+        .skill-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .skill-item a {
+            display: block;
+            background-color: #2a2a35;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #333;
+        }
+        .skill-item a:hover {
+            background-color: var(--accent-color);
+            color: #fff;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 0, 127, 0.4);
+            border-color: var(--accent-color);
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-テスト
+    <div class="container">
+        <h1>TinCLE Talent Chips</h1>
+        <div class="subtitle">Game Engine of the AI, by the AI, for the AI.</div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.17</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version017/HISTORY.md">HISTORY.md</a></li>
+                <li class="skill-item"><a href="version017/JS_SKILL.md">JS_SKILL.md</a></li>
+                <li class="skill-item"><a href="version017/JS_SKILL_HL.md">JS_SKILL_HL.md</a></li>
+                <li class="skill-item"><a href="version017/JS_SKILL_LIB1.md">JS_SKILL_LIB1.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_ADD1.md">SKILL_ADD1.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_ADD2.md">SKILL_ADD2.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_AON1.md">SKILL_AON1.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_AON2.md">SKILL_AON2.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_PCG.md">SKILL_PCG.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version017/SKILL_PT.md">SKILL_PT.md</a></li>
+                <li class="skill-item"><a href="version017/TinCLE.md">TinCLE.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.16</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version016/HISTORY.md">HISTORY.md</a></li>
+                <li class="skill-item"><a href="version016/JS_SKILL.md">JS_SKILL.md</a></li>
+                <li class="skill-item"><a href="version016/JS_SKILL_HL.md">JS_SKILL_HL.md</a></li>
+                <li class="skill-item"><a href="version016/JS_SKILL_LIB1.md">JS_SKILL_LIB1.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_ADD1.md">SKILL_ADD1.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_ADD2.md">SKILL_ADD2.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_AON1.md">SKILL_AON1.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_AON2.md">SKILL_AON2.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_PCG.md">SKILL_PCG.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version016/SKILL_PT.md">SKILL_PT.md</a></li>
+                <li class="skill-item"><a href="version016/TinCLE.md">TinCLE.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.15</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version015/HISTORY.md">HISTORY.md</a></li>
+                <li class="skill-item"><a href="version015/JS_SKILL.md">JS_SKILL.md</a></li>
+                <li class="skill-item"><a href="version015/JS_SKILL_HL.md">JS_SKILL_HL.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_ADD1.md">SKILL_ADD1.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_ADD2.md">SKILL_ADD2.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_AON1.md">SKILL_AON1.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_AON2.md">SKILL_AON2.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_PCG.md">SKILL_PCG.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version015/SKILL_PT.md">SKILL_PT.md</a></li>
+                <li class="skill-item"><a href="version015/TinCLE.md">TinCLE.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.14</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version014/HISTORY.md">HISTORY.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_ADD1.md">SKILL_ADD1.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_ADD2.md">SKILL_ADD2.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_AON1.md">SKILL_AON1.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_AON2.md">SKILL_AON2.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_PCG.md">SKILL_PCG.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version014/SKILL_PT.md">SKILL_PT.md</a></li>
+                <li class="skill-item"><a href="version014/TinCLE.md">TinCLE.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.13</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version013/HISTORY.md">HISTORY.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL_ADD1.md">SKILL_ADD1.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL_ADD2.md">SKILL_ADD2.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL_AON1.md">SKILL_AON1.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL_PCG.md">SKILL_PCG.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version013/SKILL_PT.md">SKILL_PT.md</a></li>
+                <li class="skill-item"><a href="version013/TinCLE.md">TinCLE.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.12</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version012/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version012/SKILL_ADD.md">SKILL_ADD.md</a></li>
+                <li class="skill-item"><a href="version012/SKILL_AON1.md">SKILL_AON1.md</a></li>
+                <li class="skill-item"><a href="version012/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version012/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version012/SKILL_PT.md">SKILL_PT.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.11</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version011/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version011/SKILL_ADD.md">SKILL_ADD.md</a></li>
+                <li class="skill-item"><a href="version011/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version011/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version011/SKILL_PT.md">SKILL_PT.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.10</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version010/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version010/SKILL_ADD.md">SKILL_ADD.md</a></li>
+                <li class="skill-item"><a href="version010/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version010/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version010/SKILL_PT.md">SKILL_PT.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.09</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version009/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version009/SKILL_ADD.md">SKILL_ADD.md</a></li>
+                <li class="skill-item"><a href="version009/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version009/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version009/SKILL_PT.md">SKILL_PT.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.08</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version008/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version008/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version008/SKILL_PN.md">SKILL_PN.md</a></li>
+                <li class="skill-item"><a href="version008/SKILL_PT.md">SKILL_PT.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.07</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version007/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version007/SKILL_FB.md">SKILL_FB.md</a></li>
+                <li class="skill-item"><a href="version007/SKILL_PT.md">SKILL_PT.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.06</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version006/SKILL.md">SKILL.md</a></li>
+                <li class="skill-item"><a href="version006/SKILL_PT.md">SKILL_PT.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.05</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version005/SKILL.md">SKILL.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.04</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version004/SKILL.md">SKILL.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.03</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version003/Detailed_SKILL.md">Detailed_SKILL.md</a></li>
+                <li class="skill-item"><a href="version003/SKILL.md">SKILL.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.02</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version002/For_AI_Chat_SKILL01.md">For_AI_Chat_SKILL01.md</a></li>
+                <li class="skill-item"><a href="version002/For_AI_Chat_SKILL02.md">For_AI_Chat_SKILL02.md</a></li>
+                <li class="skill-item"><a href="version002/For_AI_Chat_SKILL03.md">For_AI_Chat_SKILL03.md</a></li>
+                <li class="skill-item"><a href="version002/SKILL.md">SKILL.md</a></li>
+            </ul>
+        </div>
+
+        <div class="version-section">
+            <h2 class="version-title">TinCLE Version 0.01</h2>
+            <ul class="skill-list">
+                <li class="skill-item"><a href="version001/SKILL.md">SKILL.md</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <footer>
+        &copy; 2026 michyo (Michiyo Tagami) - Created with General Assistant: Gyaru Sono
+    </footer>
 </body>
 </html>
